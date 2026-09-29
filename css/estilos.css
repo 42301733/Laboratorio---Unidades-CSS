@@ -67,3 +67,36 @@ html {
 .caja-vw {
   width: 50vw;
 }
+/*Reto */
+.reto-panel {
+  min-height: 50vh;
+  padding: 2rem;
+  background-color: #f4f4f9;
+}
+
+.reto-panel h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.panel-cursos {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.tarjeta {
+  border: 2px solid #222;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.tarjeta h3 {
+  font-size: 1.8vw;
+  color: #333;
+}
